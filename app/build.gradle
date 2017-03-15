@@ -2,6 +2,7 @@ import com.android.build.api.transform.Transform
 
 apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.hugo'
+apply plugin:'im.fir.plugin.gradle'
 
 android {
     compileSdkVersion 24
@@ -36,4 +37,8 @@ dependencies {
     compile 'org.aspectj:aspectjrt:1.8.9'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.code.gson:gson:2.8.0'
+}
+fir{
+    apiToken '5f1067b889a64a09bee4cc519fc583ec'
+    changeLog '更新日志'
 }
