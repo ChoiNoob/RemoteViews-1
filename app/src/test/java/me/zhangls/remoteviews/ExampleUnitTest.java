@@ -40,7 +40,6 @@ public class ExampleUnitTest {
 
         map.remove("4");
 
-
         //同时启动1000个线程，去进行i++计算，看看实际结果
 
         for (int i = 0; i < 1000; i++) {
