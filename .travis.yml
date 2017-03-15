@@ -12,4 +12,9 @@ android:
 notifications:
   email: false
 
+licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+
 script: ./gradlew publishApkDebug
